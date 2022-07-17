@@ -17,7 +17,7 @@ public class ParkingSpotDto {
 
     @NotBlank
     @Size(max = 7)
-    private String licensePlteCar;
+    private String licensePlateCar;
 
     @NotBlank
     private String brandCar;
@@ -26,7 +26,7 @@ public class ParkingSpotDto {
     private String modelCar;
 
     @NotBlank
-    private String coloCar;
+    private String colorCar;
 
     @NotBlank
     private String responsibleName;
